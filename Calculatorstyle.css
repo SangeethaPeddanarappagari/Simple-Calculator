@@ -28,18 +28,21 @@
     box-shadow: -8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
     background: transparent;
     font-size:20px;
-    color:white;
+    color:rgb(255, 255, 255);
     cursor:pinter;
     margin:10px;
 }
 form .display{
     display:flex;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
     justify-content: flex-end;
     margin:20px 0;
 }
 form .display input{
    text-align: right;
    flex:1;
+   color:rgb(0, 0, 0);
    font-size: 45px;
    box-shadow: none;
 }
